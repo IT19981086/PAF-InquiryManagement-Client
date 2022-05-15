@@ -31,6 +31,7 @@ function getDetails(){
     });
 };
 
+//get details
 function getDetailsById(){
 	jQuery.ajax({
         url: "http://localhost:8080/inquiry_war_exploded/inquiry/" + parseInt($("#inquiry_id").val()),
